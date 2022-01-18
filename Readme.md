@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Polina](https://up.htmlacademy.ru/htmlcss/33/user/1981647).
-* Наставник: `Владислав Доровлев`(https://htmlacademy.ru/profile/krivokora).
+* Наставник: `Владислав Доровлев`[https://htmlacademy.ru/profile/krivokora].
 
 ---
 
