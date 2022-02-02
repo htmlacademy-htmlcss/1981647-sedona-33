@@ -80,6 +80,8 @@ a {
 }
 
 .navigation-link-button {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -93,9 +95,16 @@ a {
 
 /*Banner*/
 
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 458px;
+}
+
 .main-description {
   position: relative;
-  background-image: url("images/banner.jpg");
+  background-image: url("images/index-background.jpg");
   background-color: #756257;
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,6 +133,7 @@ a {
 }
 
 .advantages p {
+  
   color: #ffffff;
 }
 
@@ -162,6 +172,7 @@ a {
 /*hotel Search*/
 
 .hotel-search-link {
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -186,6 +197,9 @@ a {
 }
 
 .newsletter-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -223,6 +237,36 @@ a {
   text-decoration: none;
 }
 
+.twitter {
+  background-image: url("images/icons/twitter.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display:block;
+  width: 18px;
+  height: 15px;
+  margin:30px;
+}
+
+.facebook {
+  background-image: url("images/icons/facebook.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 10px;
+  height: 18px;
+  margin: 30px; 
+}
+
+.youtube {
+  background-image: url("images/icons/youtube.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display:block;
+  width: 20px;
+  height: 16px;
+  margin: 30px;
+}
+
 /*Catalog*/
 
 .catalog-hotel-search {
@@ -254,6 +298,23 @@ a {
   font-size: 20px;
   line-height: 26px;
   color: #fff;
+}
+
+.element-view {
+  background: #ffffff;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #E6E6E6;
+  border-radius: 4px;
+}
+
+.element-view.active {
+  border-color: #000000;
+}
+
+.element-view:hover,
+.element-view:active {
+  border-color: #83B3D3;
 }
 
 .submit-button {
