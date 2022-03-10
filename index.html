@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <link rel="stylesheet" href="styles/styles.css">
   <title>Седона</title>
 </head>
@@ -12,7 +14,6 @@
 <body>
   <div class="wrapper">
     <header class="page-header">
-
       <nav class="navigation">
         <a href="index.html" class="logo">
           <img src="images/logo.svg" width="139" height="70" alt="City of Sedona Logo">
@@ -28,16 +29,16 @@
             <a href="catalog.html" class="navigation-link">Гостиницы</a>
           </li>
         </ul>
-        <!--*Navigation user-->
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a href class="navigation-link">
+            <a href="#" class="navigation-link">
               <svg class="navigation-icon" aria-hidden="true" focusable="false" width="20" height="19"
                 viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M19.0257 17.05L15.3152 13.35C16.318 12.05 17.02 10.35 17.02 8.44995C17.02 4.04995 13.4098 0.449951 8.99732 0.449951C4.58483 0.449951 0.974609 4.14995 0.974609 8.54995C0.974609 12.95 4.58483 16.55 8.99732 16.55C10.8024 16.55 12.5072 15.95 13.9112 14.85L17.6217 18.55L19.0257 17.05ZM8.99732 14.55C5.68795 14.55 2.98029 11.85 2.98029 8.54995C2.98029 5.24995 5.68795 2.54995 8.99732 2.54995C12.3067 2.54995 15.0143 5.24995 15.0143 8.54995C15.0143 11.85 12.3067 14.55 8.99732 14.55Z" />
               </svg>
-              <span class="visually-hidden">Поиск</span></a>
+              <span class="visually-hidden">Поиск</span>
+            </a>
           </li>
           <li class="navigation-item">
             <a href="#" class="navigation-link favourite">
@@ -51,7 +52,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a href class="navigation-link-button">Хочу сюда!</a>
+            <a href="#" class="navigation-link-button">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -83,18 +84,17 @@
             <!--Advantages sublist -->
             <ul class="advantages-sublist reasons">
               <li class="advantages-sublist-item">
-                <img src="images/icons/house.svg" alt="Иконка Дома" width="75" height="72" class="house-pic" />
+                <span class="sublist-item-house-icon"></span>
                 <h3 class="advantages-sublist-title">Жильё</h3>
                 <p>Рекомендуем пожить в&nbsp;настоящем мотеле,<br> всё как в&nbsp;кино!</p>
               </li>
-              <li class="advantages-sublist-item">
-                <img src="images/icons/food.svg" alt="Иконка Бургера" width="74" height="70" class="food-pic" />
+              <li class="advantages-sublist-item ">
+                <span class="sublist-item-food-icon"></span>
                 <h3 class="advantages-sublist-title">Еда</h3>
                 <p>Всегда заказывайте<br> топовый фирменный бургер, вы&nbsp;не&nbsp;разочаруетесь!</p>
               </li>
-              <li class="advantages-sublist-item">
-                <img src="images/icons/present.svg" alt="Изображение сувенира" width="64" height="76"
-                  class="souvenir-pic" />
+              <li class="advantages-sublist-item ">
+                <span class="sublist-item-souvenir-icon"></span>
                 <h3 class="advantages-sublist-title">Сувениры</h3>
                 <p>
                   Не&nbsp;только китайского, но&nbsp;и&nbsp;настоящего местного производства!
@@ -122,7 +122,7 @@
               <li class="advantages-sublist-item">
                 <h3 class="advantages-item-subtitle">Красивая дорога</h3>
                 <p>— №4 —</p>
-                <p>Ехать в&nbsp;Седону из&nbsp;<nobr>Лас-Вегаса</nobr> совсем не&nbsp;скучно!</p>
+                <p>Ехать в&nbsp;Седону из&nbsp;Лас-Вегаса совсем не&nbsp;скучно!</p>
               </li>
               <li class="advantages-sublist-item">
                 <h3 class="advantages-item-subtitle">Мало туристов</h3>
@@ -136,7 +136,7 @@
       <section class="index-hotel-search">
         <h2 class="index-hotel-search-title">Заинтересовались?</h2>
         <p>
-          Укажите предполагаемые даты поездки,<br/> и&nbsp;мы&nbsp;покажем вам лучшие предложения гостиниц в&nbsp;Седоне
+          Укажите предполагаемые даты поездки,<br /> и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
         <a class="hotel-search-link" href="https://echo.htmlacademy.ru/">Поиск гостиницы в Седоне</a>
       </section>
@@ -153,7 +153,6 @@
           </button>
         </form>
       </section>
-
     </main>
 
     <footer class="footer">
@@ -161,7 +160,8 @@
         <div class="footer-social">
           <h2 class="visually-hidden">Ссылки на Социальные сети</h2>
           <ul class="social-links-list">
-            <li class="social-link-item"><a href="https://twitter.com/htmlacademy_ru">
+            <li class="social-link-item">
+              <a href="https://twitter.com/htmlacademy_ru">
                 <svg class="twitter" width="18" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <svg clip-path="url(#a)">
                     <path
@@ -173,20 +173,26 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <span class="visually-hidden">Ссылка на Твиттер</span></a></li>
-            <li class="social-link-item"><a href="https://www.facebook.com/htmlacademy">
+                <span class="visually-hidden">Ссылка на Твиттер</span>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a href="https://www.facebook.com/htmlacademy">
                 <svg class="facebook" width="10" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 0C4.8 0 3 1.8 3 4v2H0v4h3v8h4v-8h3V6H7V4h3V0H7Z" />
                 </svg>
-                <span class="visually-hidden">Ссылка на Фейсбук</span></a></li>
-            <li class="social-link-item"><a href="https://www.youtube.com/c/HTMLAcademyRUS">
+                <span class="visually-hidden">Ссылка на Фейсбук</span>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a href="https://www.youtube.com/c/HTMLAcademyRUS">
                 <svg class="youtube" width="20" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#a)">
                     <path
                       d="M17 0H2.9C1.2 0 0 1.5 0 3.2v9.5C0 14.5 1.2 16 2.9 16h14.3c1.5 0 2.9-1.5 2.9-3.2V3.2C19.9 1.5 18.7 0 17 0ZM7 11.8V4.2L13.7 8 7 11.8Z" />
                   </g>
                   <defs>
-                    <clipPath id="a">
+                    <clipPath>
                       <path d="M0 0h20v16H0z" />
                     </clipPath>
                   </defs>
@@ -206,70 +212,89 @@
       </div>
     </footer>
   </div>
-  <div class="modal-container">
-    <div class="modal modal-search">
-      <button class="modal-close-button">
-        <span class="visually-hidden">Закрыть</span>
-      </button>
-      <section class="modal-content">
-        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-        <form class="modal-form" action="https://echo.htmlacademy.ru/courses" method="post">
 
-          <label for="check-in">Дата заезда:
-            <div class="form-group">
-              <span class="calendar-icon"></span>
-              <input type="text" id="check-in" name="date" value="27 апреля 2020" autofocus>
-              <p class="validation-error">Мы не можем отправить вас в прошлое.</p>
-            </div>
-          </label>
-
-          <label for="check-out">Дата выаезда:
-            <div class="form-group">
-              <span class="calendar-icon"></span>
-              <input  type="text" id="check-out" name="date" value="1 Сентября 2021">
-              <p class="validation-warning">На эти даты есть свободные номера. Пока есть.</p>
-            </div>
-          </label>
-
-          <div class="people-count">
-            <label class="adults" for="adults">Взрослые:
-              <div class="people-count-wrapper">
-                <input class="adults-amount" type="number" min="1" max="50" step="1" id="adults" name="amount" value="2">
-                <button class="minus"></button> 
-                <button class="plus"></button> 
-              </div>
-            </label>
-            <label class="children-label" for="children">Дети:
-              <span class="children-label">
-                <span class="tooltip">
-                  <button class="tooltip-toggle" type="button">
-                    <svg class="tooltip-button-icon" width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_18711_288)">
-                      <path d="M0 9H1L1 3H0L0 9Z" fill="white"/>
-                      <path d="M1 0H0V1H1V0Z" fill="white"/>
-                      </g>
-                      <defs>
-                      <clipPath id="clip0_18711_288">
-                      <rect width="1" height="9"/>
-                      </clipPath>
-                      </defs>
-                      </svg>
-                  </button>
-                  <span class="tooltip-text"  role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с&nbsp;вами, возраст которых от&nbsp;6 до&nbsp;18 лет. Дети до&nbsp;6 лет размещаются бесплатно.</span>
-                </span>
-              </span>
-              <div class="people-count-wrapper">
-                <input id="children" type="number" min="1" max="50" step="1" name="amount" value="1">
-                <button class="minus"></button> 
-                <button class="plus"></button> 
-              </div>  
-            </label>
+  <!--Modal Window-->
+      <section class="modal-container modal-active">
+        <div class="modal-window modal-search">
+          <div class="modal-title-wrapper">
+            <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+            <button class="modal-close-button" aria-label="Закрыть окно">
+              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13 1.2L11.8 0L6.5 5.3L1.2 0L0 1.2L5.3 6.5L0 11.8L1.2 13L6.5 7.7L11.8 13L13 11.8L7.7 6.5L13 1.2Z" />
+              </svg>
+            </button>
           </div>
-          <input class="submit-form-modal" type="submit" value="Найти">
-        </form>
+          <form class="modal-form" action="https://echo.htmlacademy.ru/courses" method="post">
+            <div class="form-group">
+              <label for="check-in">Дата заезда:</label>
+              <input type="text" id="check-in" name="date" value="27 апреля 2020" autofocus>
+            </div>
+            <p class="validation-error validation-error-active">Мы не можем отправить вас в прошлое.</p>
+            <div class="form-group">
+              <label for="check-out">Дата выаезда:</label>
+              <input type="text" id="check-out" name="date" value="1 Сентября 2021">
+            </div>
+            <p class="validation-warning validation-warning-active">На эти даты есть свободные номера. Пока есть.</p>
+
+            <div class="people-count">
+              <div class="adult-count-wrapper">
+                <label class="adults-label" for="adults">Взрослые:</label>
+                <button class="minus" aria-label="Уменьшить количество">
+                  <svg width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z"/>
+                    </svg>
+                </button>
+                <input class="adults-amount" type="number" min="1" max="50" step="1" id="adults" name="amount" value="2">
+                <button class="plus" aria-label="Увеличить количество">
+                  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z" />
+                    </svg>
+                </button>
+              </div>
+              <div class="children-count-wrapper">
+                <label class="children-label" for="children">Дети:</label>
+                <span class="children-label">
+                  <span class="tooltip">
+                    <button class="tooltip-toggle" type="button">
+                      <svg class="tooltip-button-icon" width="1" height="9" viewBox="0 0 1 9"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_18711_288)">
+                          <path d="M0 9H1L1 3H0L0 9Z" fill="white" />
+                          <path d="M1 0H0V1H1V0Z" fill="white" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_18711_288">
+                            <rect width="1" height="9" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </button>
+                    <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут
+                      с&nbsp;вами, возраст которых от&nbsp;6 до&nbsp;18 лет. Дети до&nbsp;6 лет размещаются
+                      бесплатно.</span>
+                  </span>
+                </span>
+
+                <button class="minus" aria-label="Уменьшить количество">
+                  <svg width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z"/>
+                    </svg>
+                </button>
+                <input id="children" type="number" min="1" max="50" step="1" name="amount" value="1">
+                <button class="plus" aria-label="Увеличить количество">
+                  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
+                    </svg>
+                </button>
+
+              </div>
+              <button class="submit-form-modal" type="submit">Найти</button>
+            </div>
+          </form>
+        </div>
       </section>
-    </div>
-  </div>
+
 </body>
 
 </html>
