@@ -627,6 +627,7 @@ img {
 }
 
 .newsletter-email::placeholder {
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 26px;
   color: rgba(0, 0, 0, 0.6);
@@ -641,7 +642,7 @@ img {
   outline: 3px solid #83b3d3;
 }
 
-.newsletter-email:invalid {
+.newsletter-email:focus:required:invalid {
   background-color: rgba(229, 229, 229, 1);
   outline: 2px solid #ff5757;
 }
@@ -1534,6 +1535,7 @@ img {
 }
 
 .submit-button {
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -1543,9 +1545,11 @@ img {
   background: #83b3d3;
   border-radius: 4px;
   margin-top: 107px;
-  padding: 12px 25px;
+  padding: 12px 32px;
   outline: none;
   border: 3px solid transparent;
+  max-width: 160px;
+  width: 100%;
 }
 
 .submit-button:hover {
@@ -1934,7 +1938,7 @@ img {
 }
 
 .more-results-button:active {
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .more-results-button:disabled {
