@@ -159,17 +159,9 @@
           <ul class="social-links-list">
             <li class="social-link-item">
               <a href="https://twitter.com/htmlacademy_ru">
-                <svg class="twitter" width="18" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <svg clip-path="url(#a)">
-                    <path
-                      d="M11.6.2c1.8-.5 3.2.3 3.8 1.2.7-.2 1.4-.5 2.1-.7 0 .9-.6 1.5-.9 1.8.7.1 1.4-.6 1.4-.6-.2 1-1.1 1.8-1.7 2C16.1 10.7 13 15.1 5.7 15h-.5c-.4 0-4.4-.5-5.2-1.9 2.4.2 4.1-.4 5-1.2-1-.3-2.9-.4-3.2-2.9.4.1.6.2 1.3.1C1.8 8.3.4 7.5.5 5.3c.3.3 1.1.5 1.4.5C1.1 5.6-.2 2.5.9.9c1.9 1.9 4 3.6 7.6 3.8C8.7 2.3 9.7.8 11.6.2Z" />
+                <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.6 0.200056C13.4 -0.299944 14.8 0.500056 15.4 1.40006C16.1 1.20006 16.8 0.900056 17.5 0.700056C17.5 1.60006 16.9 2.20006 16.6 2.50006C17.3 2.60006 18 1.90006 18 1.90006C17.8 2.90006 16.9 3.70006 16.3 3.90006C16.1 10.7001 13 15.1001 5.7 15.0001C5.1 15.0001 5.8 15.0001 5.2 15.0001C4.8 15.0001 0.8 14.5001 0 13.1001C2.4 13.3001 4.1 12.7001 5 11.9001C4 11.6001 2.1 11.5001 1.8 9.00006C2.2 9.10006 2.4 9.20006 3.1 9.10006C1.8 8.30006 0.4 7.50006 0.5 5.30006C0.8 5.60006 1.6 5.80006 1.9 5.80006C1.1 5.60006 -0.2 2.50006 0.9 0.900056C2.8 2.80006 4.9 4.50006 8.5 4.70006C8.7 2.30006 9.7 0.800056 11.6 0.200056Z"/>
                   </svg>
-                  <defs>
-                    <clipPath id="a">
-                      <path d="M0 0h18v15H0z" />
-                    </clipPath>
-                  </defs>
-                </svg>
                 <span class="visually-hidden">Ссылка на Твиттер</span>
               </a>
             </li>
@@ -215,7 +207,7 @@
         <div class="modal-window modal-search">
           <div class="modal-title-wrapper">
             <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-            <button class="modal-close-button" aria-label="Закрыть страницу.">
+            <button class="modal-close-button" type="button" aria-label="Закрыть страницу.">
               <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M13 1.2L11.8 0L6.5 5.3L1.2 0L0 1.2L5.3 6.5L0 11.8L1.2 13L6.5 7.7L11.8 13L13 11.8L7.7 6.5L13 1.2Z" />
@@ -230,20 +222,20 @@
             <p class="validation-error validation-error-active">Мы не можем отправить вас в прошлое.</p>
             <div class="form-group">
               <label for="check-out">Дата выаезда:</label>
-              <input type="text" id="check-out" name="date" value="1 Сентября 2021">
+              <input type="text" id="check-out" name="date" value="1 Сентября 2021" required>
             </div>
             <p class="validation-warning validation-warning-active">На эти даты есть свободные номера. Пока есть.</p>
 
             <div class="people-count">
               <div class="adult-count-wrapper">
                 <label class="adults-label" for="adults">Взрослые:</label>
-                <button class="minus" type="buttton" aria-label="Уменьшить количество.">
+                <button class="adult-count-minus" type="button" aria-label="Уменьшить количество.">
                   <svg width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z"/>
                     </svg>
                 </button>
                 <input class="adults-amount" type="number" min="1" max="50" step="1" id="adults" name="amount" value="2">
-                <button class="plus" type="button" aria-label="Увеличить количество.">
+                <button class="adult-count-plus" type="button" aria-label="Увеличить количество.">
                   <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z" />
                     </svg>
@@ -273,13 +265,13 @@
                   </span>
                 </span>
 
-                <button class="minus" aria-label="Уменьшить количество." type="button">
+                <button class="children-count-minus" type="button" aria-label="Уменьшить количество.">
                   <svg width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.3" d="M0 0L0 1L13 1V0L0 0Z"/>
                     </svg>
                 </button>
                 <input id="children" type="number" min="1" max="50" step="1" name="amount" value="1">
-                <button class="plus" aria-label="Увеличить количество." type="button">
+                <button class="children-count-plus" type="button" aria-label="Увеличить количество.">
                   <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
                     </svg>
