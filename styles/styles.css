@@ -1702,6 +1702,7 @@ img {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;
+  padding-bottom: 15px;
 }
 
 .hotel-card {
@@ -1909,8 +1910,7 @@ img {
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
   text-align: center;
-  margin-top: 42px;
-  margin-bottom: 55px;
+  
 }
 
 .more-results-button {
@@ -1923,10 +1923,12 @@ img {
   color: #ffffff;
   background: #83b3d3;
   border-radius: 4px;
-  padding-top: 17px;
-  padding-bottom: 17px;
+  padding-top: 14px;
+  padding-bottom: 11px;
   width: 620px;
   border: 3px solid transparent;
+  margin-top: 31px;
+  margin-bottom: 30px;
 }
 
 .more-results-button:hover {
