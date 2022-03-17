@@ -111,18 +111,18 @@
             <div class="hotel-search-cost">
               <h3 class="hotel-search-title">Стоимость, ₽:</h3>
               <div class="labels-container">
-              <label class="min-price-label">от</label>
-              <label class="max-price-label">до</label>
+              <label class="min-price-label" for="minimal-price">от</label>
+              <label class="max-price-label" for="maximum-price">до</label>
               </div>
-              <input type="number" name="min-price" value="0" class="min-price" />
-              <input type="number" name="max-price" value="9000" class="max-price" />
+              <input type="number" name="min-price" value="0" class="min-price" id="minimal-price" />
+              <input type="number" name="max-price" value="9000" class="max-price" id="maximun-price"/>
              <div class="range">
                 <div class="range-scale">
                   <div class="range-bar" style="left: 235px; width: 55px"></div>
-                    <button class="range-toggle toggle-min">
+                    <button class="range-toggle toggle-min" type="button">
                       <span class="visually-hidden">Изменить минимальную цену.</span>
                     </button>
-                    <button class="range-toggle toggle-max">
+                    <button class="range-toggle toggle-max" type="button">
                       <span class="visually-hidden">Изменить максимальную цену.</span>
                     </button>
                 </div>
@@ -255,7 +255,7 @@
           </li>
         </ul>
         <div class="more-results">
-          <button class="more-results-button">Загрузить ещё</button>
+          <button class="more-results-button" type="button">Загрузить ещё</button>
         </div>
         <div class="pagination">
           <div class="pagination-links">
